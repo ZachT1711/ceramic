@@ -7,7 +7,19 @@
 
 > Ceramic's mission is to create a web without silos. This document provides an introduction to the Ceramic protocol. For a more technical overview, see [Ceramic Technical Specification](https://github.com/ceramicnetwork/specs).
 
-- [Ceramic Overview](#ceramic-overview)
+[**Ceramic**](http://ceramic.network) is a permissionless protocol for creating and accessing mutable, tamper-proof documents that serve as the foundation for a web without silos. Ceramic's infrastructure provides a source of truth for important information that is public, interoperable, verifiable and censorship-resistant. By migrating critical information from isolated servers into the public commons of linked documents with cryptographic consensus, Ceramic enables apps to finally escape information and infrastructure silos and build in a compsable, efficient, and connected way. Ceramic can do for user data, services, and infrastructure what blockchains have done for assets. 
+
+Because participants can create and resolve documents for any type of information without any centralized service, Ceramic unlocks interoperability between *all platforms and services across the web.* It is ideal for storing information that requires guaranteed trust, cross-platform interoperability, and multi-party consumption. This includes registries for decentralized identifiers, access control logs, policies for usage or services, and and other documents that anchor a dynamic, connected and unbundled ecosystem of users, wallets, applications, databases, and services. Ceramic enables: 
+
+- [Interoperable user and application data](#interoperable-data-ecosystems)
+- [Portable, self-sovereign identity](#portable-self-sovereign-identity)
+- [Open web services](#open-web-services)
+
+> For more information, jump directly to [use cases](#use-cases) or view [examples](#examples).
+
+Ceramic's global ecosystem of interoperable identities, data, and services allows developers to build composable applications with unprecedented interoperability, trust and scale. Ceramic is the foundation for developers to build a more connected, transparent, and user-centric internet.
+
+- [Background](#Background)
 - [What should be stored on Ceramic?](#what-should-be-stored-on-ceramic)
   - [Decentralized Identifiers (DIDs)](#decentralized-identifiers-dids)
   - [Metadata](#metadata)
@@ -27,33 +39,16 @@
 - [Ceramic Ecosystem Alliance](#ceramic-ecosystem-alliance)
 - [Timeline](#timeline)
 
-
-## Ceramic Overview
-
-[**Ceramic**](http://ceramic.network) is a permissionless protocol for creating and accessing mutable, tamper-proof documents that serve as the foundation for a web without silos. Ceramic's public infrastructure provides a censorship resistant, verifiable source of truth for building consensus around important information. By migrating information from isolated servers into the public commons governed by digital signatures and consensus, Ceramic solves a range of concerns native to centralized information silos and paves the way for a more connected, interoperable web.
-
-Although Ceramic can store any type of information, it is ideal for storing information that requires guaranteed trust, cross-platform interoperability, and multi-party consumption. Because participants can create and resolve documents without any centralized service, Ceramic unlocks interoperability between *all platforms and services across the web.* 
-
-For these reasons, Ceramic is especially well-suited as a registry for decentralized identifiers and other documents needed to enable boundless interoperability between a connected ecosystem of users, wallets, applications, databases, and services. This type of a system is critical in today's digital context that seeks to give users more agency and developers more flexibility by unbundling user identities, data, and services from application servers. Some of the things possible with Ceramic include:
-
-- [Portable, self-sovereign identity](#portable-self-sovereign-identity)
-- [Interoperable user and application data](#interoperable-data-ecosystems)
-- [Open web services](#open-web-services)
-
-> For more information, jump directly to [use cases](#use-cases) or view [examples](#examples).
-
-Ceramic's global ecosystem of interoperable identities, data, and services allows developers to build more composable applications and as a result, Ceramic is the trusted foundation upon which a more connected, transparent, and user-centric internet is built.
-
 ### Background
 
-As developers increasingly build composable applications that rely on user-managed identity, interoperable data, and shared infrastructure, they have less certainty over the types of resources that users will bring to their application at any given time. Because of this, a primary concern for developers is ensuring *interoperability* between a diverse set of unbundled technologies including (but not limited to) key pairs, wallets, data stores, and infrastructure services. As the variety of infrastructure grows, so does the challenge of maintaining interoperability.
+The rise of cloud services, SaaS, and API businesses have made building applications today easier than ever. However, building a fully featured product or service is still way too complex and fragile. Even simple apps require deploying and maintaining a backend, securing and managing user data (more frought than ever), and tying a tangle of APIs and services together. Choices made early often lock you into technology providers long-term, which vendors exploit. And making your value-add interoperate with your users' other products and services is often difficult, unpredictable, hard-to-scale work. This is because infrastructure, information and access control are needlessly replicated and siloed for each application. 
 
-For it to succeed, the composable web needs a permissionless, identity-centric interoperability protocol to provide applications with all the information they need to easily discover, route to, gain access to, and interact with a user's resources regardless of which wallet users bring, which applications created the data, or where the resources are located. 
+They key to more interoperable, composable applications is a common model for storing this information: a flexible, discoverable, yet privacy-preserving shared backend for information. The solution is a user-centric model for data and identities. By letting users control their data, share (or not) their other services and related information, and bring their identities and metadata across experiences, developers only need to worry about 1 API to scale interoperability and personalization indefinitely: the user. (This scales to any kind of identity - for users, organizations, apps, services, etc.)
 
-To provide maximal interoperability, this protocol should allow participants to: 
+The composable web needs a permissionless, identity-centric interoperability protocol to provide applications with all the information they need to easily discover, route to, gain access to, and interact with a user's resources regardless of which wallet users bring, which applications created the data, or where the resources are located. This protocol must: 
 
 1. Permissionlessly register an interoperable identity (DID); 
-2. Privately control this identity with one or more private keys;
+2. Privately control this identity with multiple private keys;
 3. Publicly associate public keys and accounts to this identity;
 4. Publicly or privately associate resources to this identity;
 5. Set permissions for resources;
@@ -66,6 +61,8 @@ In addition to the requiriements above, this protocol should also allow applicat
 9. Publish metadata and definitions;
 10. Publish data schemas; and
 11. Publish policies and service agreements.
+
+Any solution does not meet these requirements will be too siloed to be interoperable, too rigid to be broadly used, or too private to be convenient. 
 
 ## What should be stored on Ceramic?
 
