@@ -45,6 +45,7 @@ Despite the benefits of cloud services, SaaS dev tools, and API businesses, buil
 
 They key to more interoperable, composable applications without the problems of these siloes is a common model for storing key information: a flexible, discoverable, yet privacy-preserving shared backend for information. The solution is a user-centric model for data and identities. By letting users control their data, share (or not) their other services and related information, and bring their identities and metadata across experiences, developers only need to worry about 1 API to scale interoperability and personalization indefinitely: the user. (This scales to any kind of identity - for users, organizations, apps, services, etc.)
 
+### Properties
 The composable web needs a permissionless, identity-centric interoperability protocol to provide applications with all the information they need to easily discover, route to, gain access to, and interact with a user's resources regardless of which wallet users bring, which applications created the data, or where the resources are located. This protocol must: 
 
 1. Permissionlessly register an interoperable identity (DID); 
@@ -62,7 +63,7 @@ In addition to these base requirements, a protocol aiming to practically unlock 
 10. Publish data schemas; and
 11. Publish policies and service agreements.
 
-Any solution does not meet these requirements will be too siloed to be interoperable, too rigid to be broadly used, or too isolated to meet the demands of today's businesses. 
+Finally, a solution aiming to make it simpler to build powerful applications must be easy for developers to use. It must fit existing mental and development models, be simple to understand and use, put no major burden on developers or users, and scale well with new use cases and copmlexity. Any solution does not meet these requirements will be too siloed to be interoperable, too rigid to be broadly used, or too isolated to meet the demands of today's builders. 
 
 ## What should be stored on Ceramic?
 
