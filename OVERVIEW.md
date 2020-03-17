@@ -13,7 +13,7 @@ Because participants can create and resolve documents for any type of informatio
 
 - [Interoperable user and application data](#interoperable-data-ecosystems)
 - [Portable, self-sovereign identity](#portable-self-sovereign-identity)
-- [Open web services](#open-web-services)
+- [Open web services without new accounts](#open-web-services)
 
 > For more information, jump directly to [use cases](#use-cases) or view [examples](#examples).
 
@@ -41,9 +41,9 @@ Ceramic's global ecosystem of interoperable identities, data, and services allow
 
 ### Background
 
-The rise of cloud services, SaaS, and API businesses have made building applications today easier than ever. However, building a fully featured product or service is still way too complex and fragile. Even simple apps require deploying and maintaining a backend, securing and managing user data (more frought than ever), and tying a tangle of APIs and services together. Choices made early often lock you into technology providers long-term, which vendors exploit. And making your value-add interoperate with your users' other products and services is often difficult, unpredictable, hard-to-scale work. This is because infrastructure, information and access control are needlessly replicated and siloed for each application. 
+Despite the benefits of cloud services, SaaS dev tools, and API businesses, building a fully featured product or service is still way too complex, fragile and limited. Even simple apps require deploying and maintaining a backend, securing and managing user data (more frought than ever), and tying a tangle of APIs and services together. Choices made early often lock you into technology providers long-term, which vendors exploit. And making your value-add interoperate with your users' other products and services is often difficult, unpredictable, hard-to-scale work. This is because infrastructure, information and access control are needlessly replicated and siloed for each application. 
 
-They key to more interoperable, composable applications is a common model for storing this information: a flexible, discoverable, yet privacy-preserving shared backend for information. The solution is a user-centric model for data and identities. By letting users control their data, share (or not) their other services and related information, and bring their identities and metadata across experiences, developers only need to worry about 1 API to scale interoperability and personalization indefinitely: the user. (This scales to any kind of identity - for users, organizations, apps, services, etc.)
+They key to more interoperable, composable applications without the problems of these siloes is a common model for storing key information: a flexible, discoverable, yet privacy-preserving shared backend for information. The solution is a user-centric model for data and identities. By letting users control their data, share (or not) their other services and related information, and bring their identities and metadata across experiences, developers only need to worry about 1 API to scale interoperability and personalization indefinitely: the user. (This scales to any kind of identity - for users, organizations, apps, services, etc.)
 
 The composable web needs a permissionless, identity-centric interoperability protocol to provide applications with all the information they need to easily discover, route to, gain access to, and interact with a user's resources regardless of which wallet users bring, which applications created the data, or where the resources are located. This protocol must: 
 
@@ -56,13 +56,13 @@ The composable web needs a permissionless, identity-centric interoperability pro
 7. Interoperably sign and/or encrypt information; and
 8. Revoke private keys, public keys, and permissions for resources. 
  
-In addition to the requiriements above, this protocol should also allow applications and services to:
+In addition to these base requirements, a protocol aiming to practically unlock interoperability should also allow applications and services to:
 
 9. Publish metadata and definitions;
 10. Publish data schemas; and
 11. Publish policies and service agreements.
 
-Any solution does not meet these requirements will be too siloed to be interoperable, too rigid to be broadly used, or too private to be convenient. 
+Any solution does not meet these requirements will be too siloed to be interoperable, too rigid to be broadly used, or too isolated to meet the demands of today's businesses. 
 
 ## What should be stored on Ceramic?
 
